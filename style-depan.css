@@ -1,0 +1,115 @@
+*{margin:0px; padding:0px}
+
+body{
+	/* background-image: url(wp.jpg); */
+	background-color: #4D4D4D;
+	font-family:cooper black;
+	font-size:13px;
+	color:#4D4D4D;
+}
+#container{
+	width:99%;
+	margin:0px auto;
+	
+}
+#header{
+	width:100%;
+	height:100px;
+	background-color: navy;
+	color: white;
+}
+#logo-perpustakaan-container{
+	float:left;
+	width:6%;
+	height:80%;
+	padding:8px;
+}
+#logo-perpustakaan{
+	width:80px;
+	height:80px;
+	
+}
+#nama-alamat-perpustakaan-container{
+	float:left;
+	width:90%;
+	padding:10px;
+}
+.nama-alamat-perpustakaan{
+	float:left;
+	width:100%;
+	padding:6px;
+	text-align:center;
+}
+#header2{
+	width:100%;
+	height:32px;
+	background-color:#5C3701;
+	color:#FFFFFF;
+}
+#nama-user{
+	float:left;
+	color:#EEEEEE;
+	padding:6px;
+}
+
+#sidebar{
+	background-color: blue;
+}
+#sidebar ul {
+	list-style: none;
+}
+#sidebar ul li {
+    float: center;
+    line-height: 60px;
+}
+#sidebar ul li a {
+    float:left; 
+    width:200px;  
+    text-align:center; 
+    color:white; 
+    text-decoration:none; 
+    font-size: 16px;
+}
+
+#sidebar ul li a:hover {
+    background-color:blue; 
+    display:block;
+
+}
+
+#footer{
+	width:99.4%;
+	height:20px;
+	clear:both;
+	text-align:center;
+	padding:4px;
+	background-color:#5C3701;
+	color:#FFFFFF;
+}
+
+/** Awal Index Depan **/
+
+/** Awal depan**/
+
+#content{
+	background-color: white;
+	float:left;
+	width: 95.5%;
+	min-height:100%;
+	margin-left:6px;
+	border:2px solid #C4C4C4;
+	padding:10px;
+	margin-bottom:6px;
+}
+#content-container{
+	width:102.5%;
+}
+
+#beranda-konten{
+	margin-left: 5%;
+	margin-top: 2%;
+	height:100%;
+	font-family:arial;
+	font-size: 20px;
+
+}
